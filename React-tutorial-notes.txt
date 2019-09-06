@@ -1,0 +1,15 @@
+ReactJS Notes
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Terminal commands to start up:
+--> npx create-react-app project_name
+--> cd into created react project folder and run "npm start"
+----------------------------------
+
+- States can be created to be attached to components as 'props'
+	ex) <Todo todos={this.state.todos}/>
+		--> now we can say, this.props.todos on the "Todo" component
+
+- In react .map((x) => (...)); is used to loop through an array like *ngFor
+
+** component shortcut => rce 'tab' (within the js component file) **
