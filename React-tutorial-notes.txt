@@ -12,4 +12,17 @@ Terminal commands to start up:
 
 - In react .map((x) => (...)); is used to loop through an array like *ngFor
 
+(SHORTCUTS NEED "ES7 React" extension installed onto your editor)
+
 ** component shortcut => rce 'tab' (within the js component file) **
+
+** header shortcut => rfc 'tab' (within the js component file) **
+
+- Sometimes when you have an 'undefined read error' with functionName(e) {..}
+   --> .bind(this) can fix the problem @ called --> 
+   this.functionName().bind(this)
+
+	OR
+
+- You can use an arrow function @ initiation --> functionName = (e) => {...}
+
